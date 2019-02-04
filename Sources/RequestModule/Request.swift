@@ -4,7 +4,7 @@ public class Request{
 
     private var url: URL
 
-    init(_ urlString: String){
+    public init(_ urlString: String){
         url = URL(string: urlString)!
     }
 
