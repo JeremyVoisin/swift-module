@@ -1,6 +1,6 @@
 import Foundation
 
-class Request{
+public class Request{
 
     private var url: URL
 
